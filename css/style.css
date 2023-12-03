@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 99vw;
+  height: 99vh;
+  color: #fff;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 60px auto 0px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h1::after {
+  content: "";
+  background: white;
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 10px auto;
+}
+
+.container {
+  display: flex;
+  margin: 20px auto;
+}
+
+.container .c {
+  display: flex;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  padding: 10px;
+  border: #fff 1px solid;
+  border-radius: 20%;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.txt {
+  text-align: center;
+  font-size: 18px;
+}
+
+.web:hover,
+.app:hover,
+.marketing:hover,
+.graphic:hover {
+  cursor: pointer;
+  box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+}
